@@ -1,0 +1,116 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+/* Component */
+@-moz-document domain("bilibili.com") {
+	.bilibili-player-video-inputbar {
+		margin-right: -1px;
+	}
+	.bilibili-player-video-danmaku {
+		will-change: contents;
+	}
+	.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-danmaku-input {
+		font-size: 1.3em;
+	}
+	.bilibili-player-video-btn-send {
+		transform: scale(1.3);
+	}
+}
+@-moz-document domain("pan.baidu.com") {
+	#fileTreeDialog .file-tree-container {
+		height: 60vh;
+	}
+}
+@-moz-document domain("translate.google.com") {
+	#wtgbr {
+		transition: margin 200ms;
+	}
+	#contentframe {
+		top: 0px !important;
+		margin-top: 60px !important;
+	}
+}
+@-moz-document domain("translate.googleusercontent.com") {
+	#goog-gt-tt .original-text {
+		text-align: start;
+	}
+	#goog-gt-tt > div:first-child {
+		display: none;
+	}
+	html.translated-ltr > body {
+		overflow-x: hidden;
+	}
+}
+
+/* Render */
+@-moz-document domain("twitter.com") {
+	.ProfileCanopy.is-locked .ProfileCanopy-inner, .SearchNavigation {
+		position: absolute
+	}
+}
+@-moz-document domain("youtube.com") {
+	#watch-description-text {
+		padding-top: 4px;
+	}
+}
+@-moz-document domain("google.com"), domain("google.co.jp") {
+	#res h3.r {
+		overflow: visible;
+	}
+}
+@-moz-document domain("vuejs.org") {
+	code, pre {
+		font-size: 0.9em;
+	}
+	.highlight .code pre {
+		padding: 0.8em;
+	}
+}
+@-moz-document domain("github.com") {
+	.js-line-number, .CodeMirror-linenumber {
+		background-color: #f6f8fa;
+		color: #999;
+	}
+}
+@-moz-document domain("docs.google.com") {
+	.goog-toolbar-separator.goog-inline-block {
+		padding-left: 1px;
+	}
+}
+@-moz-document domain("plus.google.com") {
+    .Wxeofe, .iaLVnc {
+        position: absolute;
+    }
+}
+
+/* Anti ugly SimSun */
+@font-face {
+	font-family: "宋体";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "新宋体";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "SimSun";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "NSimSun";
+	src: local("Microsoft YaHei");
+}
+
+/* Firefox only */
+@-moz-document url-prefix() {
+	input[type="radio"], input[type="checkbox"] {
+		width: 0.00001px !important;
+		height: 0.00001px !important;
+		outline: 0 !important;
+	}
+}
+@-moz-document url-prefix() {
+	table {
+		border-collapse: separate !important;
+		border-spacing: 0px;
+	}
+}

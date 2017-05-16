@@ -1,0 +1,262 @@
+{
+  "timeStamp": 0,
+  "version": "1.12.4",
+  "userSettings": {
+    "advancedUserEnabled": false,
+    "alwaysDetachLogger": false,
+    "autoUpdate": true,
+    "cloudStorageEnabled": true,
+    "collapseBlocked": true,
+    "colorBlindFriendly": false,
+    "contextMenuEnabled": false,
+    "dynamicFilteringEnabled": false,
+    "externalLists": "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
+    "firewallPaneMinimized": false,
+    "hyperlinkAuditingDisabled": true,
+    "ignoreGenericCosmeticFilters": false,
+    "largeMediaSize": 50,
+    "parseAllABPHideFilters": true,
+    "prefetchingDisabled": true,
+    "requestLogMaxEntries": 1000,
+    "showIconBadge": true,
+    "tooltipsDisabled": false,
+    "webrtcIPAddressHidden": true
+  },
+  "selectedFilterLists": [
+    "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
+    "VIE-0",
+    "TUR-0",
+    "SWE-0",
+    "SVN-0",
+    "spa-0",
+    "RUS-0",
+    "RUS-2",
+    "POL-1",
+    "POL-0",
+    "NLD-0",
+    "LVA-0",
+    "LTU-0",
+    "KOR-1",
+    "KOR-0",
+    "KOR-2",
+    "ITA-0",
+    "ITA-1",
+    "ISR-0",
+    "ISL-0",
+    "IRN-0",
+    "IDN-0",
+    "HUN-0",
+    "GRC-0",
+    "FRA-0",
+    "FIN-0",
+    "EU-prebake",
+    "EST-0",
+    "DNK-0",
+    "DEU-0",
+    "CZE-0",
+    "CHN-0",
+    "CHN-1",
+    "CHN-2",
+    "BGR-0",
+    "ara-0",
+    "plowe-0",
+    "mvps-0",
+    "hphosts",
+    "dpollock-0",
+    "fanboy-thirdparty_social",
+    "spam404-0",
+    "disconnect-malware",
+    "malware-2",
+    "malware-1",
+    "malware-0",
+    "disconnect-malvertising",
+    "fanboy-enhanced",
+    "easyprivacy",
+    "disconnect-tracking",
+    "easylist",
+    "ublock-unbreak",
+    "ublock-privacy",
+    "ublock-badware",
+    "ublock-filters",
+    "user-filters"
+  ],
+  "hiddenSettingsString": "assetFetchTimeout 30\nautoUpdateAssetFetchPeriod 120\nautoUpdatePeriod 7\nignoreRedirectFilters false\nignoreScriptInjectFilters false\nmanualUpdateAssetFetchPeriod 2000\npopupFontSize unset\nsuspendTabsUntilReady false\nuserResourcesLocation unset",
+  "netWhitelist": "about-scheme\nbehind-the-scene\nbilibili.com\ngelbooru.com\nmoz-extension-scheme\nonedrive.live.com\nplus.google.com\nsaucenao.com\ntwitter.com\nwhatanime.ga\nwww.google.co.jp",
+  "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-cosmetic-filtering: www.baidu.com true\nno-cosmetic-filtering: www.zhihu.com true",
+  "userFilters": "google.com###als\ngoogle.com###footer\ngoogle.com###subform_ctrl\ngoogle.co.jp###als\ngoogle.co.jp###footer\ngoogle.co.jp###subform_ctrl\nyoutube.com##.yt-uix-button.yt-uix-button-size-default.yt-uix-button-expander.yt-uix-expander-head.yt-uix-expander-body\nyoutube.com###less\ntranslate.google.com###gt-ft-res\ntranslate.google.com###gt-ft\ntranslate.google.com###gt-promo-lr\nbugs.chromium.org###thumbnail_box\n\nhttps://www.lundao.com/static/css/default/common_\n",
+  "filterLists": {
+    "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/": {
+      "off": false
+    },
+    "https://www.fanboy.co.nz/fanboy-vietnam.txt": {
+      "off": false
+    },
+    "https://adguard.com/filter-rules.html?id=13": {
+      "off": false
+    },
+    "https://www.fanboy.co.nz/fanboy-swedish.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/easylistspanish.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/advblock.txt": {
+      "off": false
+    },
+    "https://adguard.com/en/filter-rules.html?id=1": {
+      "off": false
+    },
+    "POL-1": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/easylistdutch.txt": {
+      "off": false
+    },
+    "https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt": {
+      "off": false
+    },
+    "http://margevicius.lt/easylistlithuania.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/yous/YousList/master/youslist.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/gfmaster/adblock-korea-contrib/master/filter.txt": {
+      "off": false
+    },
+    "https://www.fanboy.co.nz/fanboy-korean.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/easylistitaly.txt": {
+      "off": false
+    },
+    "https://dl.dropboxusercontent.com/u/1289327/abpxfiles/filtri.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt": {
+      "off": false
+    },
+    "http://adblock.gardar.net/is.abp.txt": {
+      "off": false
+    },
+    "IRN-0": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt": {
+      "off": false
+    },
+    "https://www.void.gr/kargig/void-gr-filters.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/liste_fr.txt": {
+      "off": false
+    },
+    "http://adb.juvander.net/Finland_adb.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/liamja/Prebake/master/obtrusive.txt": {
+      "off": false
+    },
+    "http://adblock.ee/list.php": {
+      "off": false
+    },
+    "https://adblock.dk/block.csv": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/easylistgermany.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/tomasko126/easylistczechandslovak/master/filters.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/easylistchina.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt": {
+      "off": false
+    },
+    "http://stanev.org/abp/adblock_bg.txt": {
+      "off": false
+    },
+    "https://easylist-downloads.adblockplus.org/Liste_AR.txt": {
+      "off": false
+    },
+    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
+      "off": false
+    },
+    "http://winhelp2002.mvps.org/hosts.txt": {
+      "off": false
+    },
+    "http://hosts-file.net/.%5Cad_servers.txt": {
+      "off": false
+    },
+    "http://someonewhocares.org/hosts/hosts": {
+      "off": false
+    },
+    "https://www.fanboy.co.nz/fanboy-antifacebook.txt": {
+      "off": false
+    },
+    "https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt": {
+      "off": false
+    },
+    "https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt": {
+      "off": false
+    },
+    "http://malwaredomains.lehigh.edu/files/immortal_domains.txt": {
+      "off": false
+    },
+    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
+      "off": false
+    },
+    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
+      "off": false
+    },
+    "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt": {
+      "off": false
+    },
+    "https://www.fanboy.co.nz/enhancedstats.txt": {
+      "off": false
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
+      "off": false
+    },
+    "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt": {
+      "off": false
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
+      "off": false
+    },
+    "assets/ublock/unbreak.txt": {
+      "off": false
+    },
+    "assets/ublock/privacy.txt": {
+      "off": false
+    },
+    "assets/ublock/badware.txt": {
+      "off": false
+    },
+    "assets/ublock/filters.txt": {
+      "off": false
+    },
+    "assets/user/filters.txt": {
+      "off": false
+    },
+    "assets/ublock/experimental.txt": {
+      "off": true
+    }
+  }
+}
