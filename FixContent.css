@@ -78,24 +78,6 @@
 	}
 }
 
-/* Font replace */
-@font-face {
-	font-family: "宋体";
-	src: local("Microsoft YaHei");
-}
-@font-face {
-	font-family: "新宋体";
-	src: local("Microsoft YaHei");
-}
-@font-face {
-	font-family: "SimSun";
-	src: local("Microsoft YaHei");
-}
-@font-face {
-	font-family: "NSimSun";
-	src: local("Microsoft YaHei");
-}
-
 /* Firefox only */
 @-moz-document url-prefix() {
 	input[type="radio"], input[type="checkbox"] {

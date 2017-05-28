@@ -61,18 +61,39 @@ a::selection {
 a::-moz-selection {
 	color: #00c !important;
 }
-/*
-img {
-	box-shadow: none;
-	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
-}
-img:hover {
-	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
-}
-*/
 body {
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 body >:not(:last-child), body >:last-child > * > * {
 	-ms-overflow-style: scrollbar;
+}
+@font-face {
+	font-family: "Helvetica Neue";
+	src: local("Roboto");
+}
+
+/* Replace */
+@font-face {
+	font-family: "Helvetica";
+	src: local("Roboto");
+}
+@font-face {
+	font-family: "Arial";
+	src: local("Roboto");
+}
+@font-face {
+	font-family: "瀹浣";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "?板?浣";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "SimSun";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "NSimSun";
+	src: local("Microsoft YaHei");
 }
