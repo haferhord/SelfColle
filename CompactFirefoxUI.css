@@ -63,7 +63,7 @@ https://addons.mozilla.org/en-US/firefox/addon/dom-inspector-6622
 	transition: background 0.15s !important;
 }
 #nav-bar {
-	margin-bottom: -20px !important;
+	margin-bottom: -3px !important;
 }
 #main-window:not([disablechrome]) #navigator-toolbox::after {
 	display: none !important;

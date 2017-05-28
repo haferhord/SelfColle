@@ -1,4 +1,4 @@
-@namespace url(http://www.w3.org/1999/xhtml);
+﻿@namespace url(http://www.w3.org/1999/xhtml);
 
 /* Component */
 @-moz-document domain("bilibili.com") {
@@ -47,19 +47,9 @@
 		position: absolute
 	}
 }
-@-moz-document domain("youtube.com") {
-	#watch-description-text {
-		padding-top: 4px;
-	}
-}
-@-moz-document domain("google.com"), domain("google.co.jp") {
-	#res h3.r {
-		overflow: visible;
-	}
-}
 @-moz-document domain("vuejs.org") {
 	code, pre {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 	.highlight .code pre {
 		padding: 0.8em;
@@ -71,18 +61,24 @@
 		color: #999;
 	}
 }
-@-moz-document domain("docs.google.com") {
-	.goog-toolbar-separator.goog-inline-block {
-		padding-left: 1px;
+@-moz-document domain("youtube.com") {
+	#watch-description-text {
+		padding-top: 4px;
+	}
+	.yt-uix-button.yt-uix-button-size-default.yt-uix-button-expander.yt-uix-expander-head.yt-uix-expander-body, #less {
+		display: none;
 	}
 }
 @-moz-document domain("plus.google.com") {
-    .Wxeofe, .iaLVnc {
-        position: absolute;
-    }
+	.Wxeofe, .iaLVnc {
+		position: absolute;
+	}
+	img {
+		image-rendering: auto !important;
+	}
 }
 
-/* Anti ugly SimSun */
+/* Font replace */
 @font-face {
 	font-family: "宋体";
 	src: local("Microsoft YaHei");

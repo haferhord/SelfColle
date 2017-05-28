@@ -1,11 +1,11 @@
 {
-  "timeStamp": 0,
+  "timeStamp": 1495982963956,
   "version": "1.12.4",
   "userSettings": {
     "advancedUserEnabled": false,
     "alwaysDetachLogger": false,
     "autoUpdate": true,
-    "cloudStorageEnabled": true,
+    "cloudStorageEnabled": false,
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
@@ -81,11 +81,11 @@
     "user-filters"
   ],
   "hiddenSettingsString": "assetFetchTimeout 30\nautoUpdateAssetFetchPeriod 120\nautoUpdatePeriod 7\nignoreRedirectFilters false\nignoreScriptInjectFilters false\nmanualUpdateAssetFetchPeriod 2000\npopupFontSize unset\nsuspendTabsUntilReady false\nuserResourcesLocation unset",
-  "netWhitelist": "about-scheme\nbehind-the-scene\nbilibili.com\ngelbooru.com\nmoz-extension-scheme\nonedrive.live.com\nplus.google.com\nsaucenao.com\ntwitter.com\nwhatanime.ga\nwww.google.co.jp",
+  "netWhitelist": "about-scheme\nbehind-the-scene\nbilibili.com\ngelbooru.com\nmoz-extension-scheme\nonedrive.live.com\nplus.google.com\nsaucenao.com\ntwitter.com\nwhatanime.ga\nwww.youtube.com\nzh.moegirl.org",
   "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "no-cosmetic-filtering: www.baidu.com true\nno-cosmetic-filtering: www.zhihu.com true",
-  "userFilters": "google.com###als\ngoogle.com###footer\ngoogle.com###subform_ctrl\ngoogle.co.jp###als\ngoogle.co.jp###footer\ngoogle.co.jp###subform_ctrl\nyoutube.com##.yt-uix-button.yt-uix-button-size-default.yt-uix-button-expander.yt-uix-expander-head.yt-uix-expander-body\nyoutube.com###less\ntranslate.google.com###gt-ft-res\ntranslate.google.com###gt-ft\ntranslate.google.com###gt-promo-lr\nbugs.chromium.org###thumbnail_box\n\nhttps://www.lundao.com/static/css/default/common_\n",
+  "hostnameSwitchesString": "no-cosmetic-filtering: www.baidu.com true\nno-cosmetic-filtering: www.zhihu.com true\nno-cosmetic-filtering: www.quora.com true",
+  "userFilters": "google.com###als\ngoogle.com###footer\ngoogle.com###subform_ctrl\ngoogle.co.jp###als\ngoogle.co.jp###footer\ngoogle.co.jp###subform_ctrl\ntranslate.google.com###gt-ft-res\ntranslate.google.com###gt-ft\ntranslate.google.com###gt-promo-lr\nbugs.chromium.org###thumbnail_box\nhttps://www.lundao.com/static/css/default/common_\n",
   "filterLists": {
     "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/": {
       "off": false
