@@ -81,7 +81,7 @@ body >:not(:last-child), body >:last-child > * > * {
 }
 @font-face {
 	font-family: "Arial";
-	src: local("Roboto");
+	src: local("Roboto"), local("Roboto-Regular");
 }
 @font-face {
 	font-family: "Times New Roman";
