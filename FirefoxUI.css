@@ -1,6 +1,6 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 /*
-Writed by @zcyzcy88
+Writed by zcyzcy88
 Thanks:
 https://github.com/zcyzcy88/SelfColle/commit/49792f7c1a08dfb62b8023cfa4c09caff83deb0b
 https://addons.mozilla.org/en-US/firefox/addon/dom-inspector-6622
@@ -8,16 +8,10 @@ https://addons.mozilla.org/en-US/firefox/addon/small-tabs
 https://userstyles.org/styles/99967/firefox-remove-borders-gradients-on-tab-nav-bars 
 */
 
-@font-face {
-	font-family: "Segoe UI";
-	src: local("Roboto");
+[role="application"] {
+	font-family: sans-serif !important;
 }
-* {
-	font-family: San Francisco, Roboto, Segoe UI,
-		Lucida Grande, Tahoma,
-		Yunlin Sans, Hiragino Kaku Gothic Pro, Hiragino Sans GB,
-		sans-serif !important;
-}
+
 ::-moz-selection {
 	color: black !important;
 	background: rgba(128, 191, 255, 0.8) !important;

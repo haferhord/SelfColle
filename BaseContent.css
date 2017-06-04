@@ -1,5 +1,5 @@
 /*
-Writed by @zcyzcy88
+Writed by zcyzcy88
 Thanks:
 https://github.com/necolas/normalize.css
 */
@@ -29,6 +29,11 @@ abbr[title] {
 }
 
 /* Font */
+/*
+San Francisco, Roboto, Segoe UI,
+Lucida Grande, Tahoma,
+Yunlin Sans, Hiragino Kaku Gothic Pro, Hiragino Sans GB
+*/
 body, button, input, optgroup, select, textarea {
 	font-size: 1em;
 	font-family: sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
@@ -68,11 +73,11 @@ body >:not(:last-child), body >:last-child > * > * {
 /* Replace */
 @font-face {
 	font-family: "Helvetica Neue";
-	src: local("Roboto");
+	src: local("Roboto"), local("Roboto-Regular");
 }
 @font-face {
 	font-family: "Helvetica";
-	src: local("Roboto");
+	src: local("Roboto"), local("Roboto-Regular");
 }
 @font-face {
 	font-family: "Arial";
