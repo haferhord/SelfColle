@@ -8,6 +8,10 @@ https://addons.mozilla.org/en-US/firefox/addon/small-tabs
 https://userstyles.org/styles/99967/firefox-remove-borders-gradients-on-tab-nav-bars 
 */
 
+@font-face {
+	font-family: "Segoe UI";
+	src: local("Roboto");
+}
 * {
 	font-family: San Francisco, Roboto, Segoe UI,
 		Lucida Grande, Tahoma,
@@ -55,19 +59,19 @@ a::-moz-selection {
 	-moz-margin-start: 3px !important;
 }
 
-.autocomplete-richlistitem {
+#PopupAutoCompleteRichResult .autocomplete-richlistitem {
 	padding-left: 75px !important;
 }
 
 #urlbar {
-	font-size: 16px !important;
+	font-size: 15px !important;
 	border: none !important;
 	box-shadow: none !important;
 	transition: 0.15s !important;
 }
 .textbox-input-box.urlbar-input-box {
-	line-height: 1.75 !important;
 	font-family: Consolas, monospace !important;
+	line-height: 1.75 !important;
 }
 
 #nav-bar {

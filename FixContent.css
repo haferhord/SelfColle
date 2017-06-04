@@ -1,4 +1,4 @@
-﻿@namespace url(http://www.w3.org/1999/xhtml);
+@namespace url(http://www.w3.org/1999/xhtml);
 
 /* Component */
 @-moz-document domain("bilibili.com") {
@@ -45,6 +45,12 @@
 @-moz-document domain("twitter.com") {
 	.ProfileCanopy.is-locked .ProfileCanopy-inner, .SearchNavigation {
 		position: absolute
+	}
+}
+@-moz-document domain("userstyles.org") {
+	#header {
+		position: absolute;
+		top: -50px;
 	}
 }
 @-moz-document domain("vuejs.org") {

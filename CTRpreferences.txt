@@ -9,10 +9,8 @@ noconicons=false
 sbsize_minw~200
 ctabtsh:#FFFFFF
 ctrosearchrt~0
-am_showrecup=false
 autocompl_hlb=false
 alt_addonsp=false
-puibuttonsep:puib_leftsep
 oldtoplevimg2=false
 toptb_oldpad=false
 am_hovshowb=false
@@ -29,18 +27,17 @@ navbarmar_l~0
 alt_newtabp=false
 emptyfavico_g:emptyfavico_g_def
 cpanelmenus=false
+puibuttonsep:puib_leftsep
 hidezoomres=false
 tabcolor_pen=false
 menubarnofog=false
 iat_notf_vt=false
 search_ant=true
-html5warning=true
 tabtextsh_act=false
 ib_graycolor=false
 ctab1:#00FF00
 ctabact1:#FF8800
 tabcolor_hov=false
-urlbardark=false
 tabfita_def=false
 anewtaburl:about:newtab
 ctabpent:#000000
@@ -51,6 +48,7 @@ menubarfs=false
 ctrnewinv=true
 invicoextrabar=false
 autocompl_hlu=false
+faviconurl=false
 appbautocol=false
 ctabunr2:#007700
 hidesbclose=false
@@ -67,6 +65,7 @@ verifiedcolors=false
 altdlprogbar=false
 ctabpen2:#007700
 cappbutpc2:#993399
+hideurlsrg=false
 cstatextlb=false
 nav_txt_ico:icons
 altabico:altabico_white
@@ -84,14 +83,17 @@ transpttbew10=false
 altmbarpos:altmbarpos0
 nosnippets=false
 tabfbold_unr=false
+am_showrecup=false
 bmbutnotb=false
 appbuttontxt:
 altoptions:options_default
+cntab1:#00FF00
 os_spsize_minw~200
 locsearchbw10=false
 sbradius_left~0
 nonavborder=false
 sbsize_maxw~4000
+contextitem=false
 osearch_dm=false
 extraurltarget:tab
 cresultshcb=false
@@ -112,6 +114,7 @@ oldfontgfx=false
 tabthrobber:throbber_default
 appbutmhi=false
 bmbviewbmsb=false
+addonbarfs=false
 os_spsize_maxw~200
 nonavtbborder=false
 ctabheight~28
@@ -131,12 +134,9 @@ osearch_cwidth=false
 smallnavbut=false
 noemptypticon=false
 closeicon:closeicon_default
-hideurlsrg=false
-search_abl=true
 ntabcolor_hov=false
 alttabstb=false
 ctabactt:#000000
-contextitem=false
 backforward=true
 hideurlgo=false
 findb_widthcb=false
@@ -170,7 +170,6 @@ skipprintpr=false
 tabfbold_pen=false
 bmbnounsort=false
 hidenavbar=false
-addonbarfs=false
 am_highlight=false
 tabtextsh_pen=false
 search_aho=true
@@ -194,7 +193,6 @@ tabmokcolor=false
 cresultsh~400
 activndicat=false
 ctroldsearch=false
-optionsrem=true
 tabfita_pen=false
 tabc_act_tb=false
 hideurlzoom=true
@@ -207,6 +205,7 @@ ibinfoico2=false
 padlock:padlock_default
 oldplacesbut=false
 sb_roundness=false
+cntabhov2:#FFFF00
 tabtextc_hov=false
 invicoaddonbar=false
 navbarpad_r~3
@@ -215,9 +214,11 @@ nodevtheme2=false
 tabtextsh_unr=false
 bmbutnotext=false
 mbarforceleft=false
+html5warning=true
 statusbar=false
 am_buticons=false
 ctrosearchct~0
+search_abl=true
 anewtaburlp:about:privatebrowsing
 invicobookbar=false
 tabfbold_act=false
@@ -239,6 +240,7 @@ aerocolors=false
 ib_nohovcolor=false
 tablowopa_unr=false
 autocompl_it=false
+urlbardark=true
 cntabhov1:#FFFFBB
 bmanimation=true
 nobookbarbg=false
@@ -255,7 +257,7 @@ bmbviewbmtb=false
 aboutprefsww~850
 hidetbwote2=true
 restartapp=true
-ctabmwidth~100
+ctabmwidth~110
 closeonleft=false
 anewtaburlpcb=false
 altautocompl=false
@@ -272,7 +274,6 @@ hideurelstop=true
 findb_hide_ws=false
 anewtaburlcb=false
 tabfita_unr=false
-cntabhov2:#FFFF00
 athrobberurl:
 appbuttonct=false
 bookbarfs=false
@@ -281,7 +282,6 @@ mbarposition:toolbar-menubar
 wincontrols=true
 iblabels=false
 navbarpad_l~3
-faviconurl=false
 lb_width=false
 tabtextsh_def=false
 tttitlebar_c=false
@@ -293,7 +293,7 @@ hideeditbm=false
 urlresults=false
 navbarmar_r~0
 lbsize_maxw~4000
+optionsrem=true
 aboutpages=false
-cntab1:#00FF00
 ntabcolor_def=false
 hideprbutton=false
