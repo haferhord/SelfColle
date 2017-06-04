@@ -8,10 +8,9 @@ https://addons.mozilla.org/en-US/firefox/addon/small-tabs
 https://userstyles.org/styles/99967/firefox-remove-borders-gradients-on-tab-nav-bars 
 */
 
-[role="application"] {
+#addons-page, #config *, #stylish-edit * {
 	font-family: sans-serif !important;
 }
-
 ::-moz-selection {
 	color: black !important;
 	background: rgba(128, 191, 255, 0.8) !important;
