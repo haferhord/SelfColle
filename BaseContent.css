@@ -71,18 +71,20 @@ body >:not(:last-child), body >:last-child > * > * {
 }
 
 /* Replace */
+/*
 @font-face {
 	font-family: "Helvetica Neue";
-	src: local("Roboto"), local("Roboto-Regular");
+	src: local("Roboto");
 }
 @font-face {
 	font-family: "Helvetica";
-	src: local("Roboto"), local("Roboto-Regular");
+	src: local("Roboto");
 }
 @font-face {
 	font-family: "Arial";
-	src: local("Roboto"), local("Roboto-Regular");
+	src: local("Roboto");
 }
+*/
 @font-face {
 	font-family: "Times New Roman";
 	src: local("Georgia");
