@@ -3,4 +3,4 @@
 - **Collection for myself**: I put various things in this repository.
 - **License**: CC BY-SA
 
-> Tips: hide politics issues by add `-label:politics` to query string.
+> Tips: hide politics issues by [`-label:politics`](https://github.com/zcyzcy88/SelfColle/issues?q=is%3Aissue+-label%3Apolitics+is%3Aopen)
