@@ -28,15 +28,15 @@ abbr[title] {
 	text-decoration: underline dotted;
 }
 
-/* Font */
 /*
 San Francisco, Roboto, Segoe UI,
 Lucida Grande, Tahoma,
 Yunlin Sans, Hiragino Kaku Gothic Pro, Hiragino Sans GB
 */
+/* Font */
 body, button, input, optgroup, select, textarea {
 	font-size: 1em;
-	font-family: sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+	font-family: sans-serif, Roboto, Yunlin Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 pre, code, kbd, samp, var {
 	font-size: 0.9em;

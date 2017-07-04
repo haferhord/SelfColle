@@ -2,6 +2,9 @@
 
 /* Component */
 @-moz-document domain("bilibili.com") {
+	.player-fullscreen-fix {
+		overflow: hidden;
+	}
 	.bilibili-player-video-inputbar {
 		margin-right: -1px;
 	}
@@ -21,6 +24,9 @@
 	}
 }
 @-moz-document domain("translate.google.com") {
+	.goog-flat-menu-button {
+		font-size: 12px;
+	}
 	#wtgbr {
 		transition: margin 200ms;
 	}
