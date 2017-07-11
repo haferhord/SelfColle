@@ -37,6 +37,7 @@ Yunlin Sans, Hiragino Kaku Gothic Pro, Hiragino Sans GB
 body, button, input, optgroup, select, textarea {
 	font-size: 1em;
 	font-family: sans-serif, Roboto, Yunlin Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+	line-height: 1.6;
 }
 pre, code, kbd, samp, var {
 	font-size: 0.9em;

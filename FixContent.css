@@ -1,29 +1,16 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-/* Component */
-@-moz-document domain("bilibili.com") {
-	.player-fullscreen-fix {
-		overflow: hidden;
-	}
-	.bilibili-player-video-inputbar {
-		margin-right: -1px;
-	}
-	.bilibili-player-video-danmaku {
-		will-change: contents;
-	}
-	.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-danmaku-input {
-		font-size: 1.3em;
-	}
-	.bilibili-player-video-btn-send {
-		transform: scale(1.3);
-	}
-}
-@-moz-document domain("pan.baidu.com") {
-	#fileTreeDialog .file-tree-container {
-		height: 60vh;
-	}
-}
 @-moz-document domain("translate.google.com") {
+	#gt-src-wrap [style="width: 100%;"] *, #result_box {
+		line-height: 1.4;
+	}
+	.trans-verified-button-small #result_box[lang="zh-CN"], .trans-verified-button-small  #result_box[lang="zh-TW"] {
+		line-height: 1.6;
+		font-size: 18px;
+	}
+	.trans-verified-button-small #result_box[lang="ja"], .trans-verified-button-small #result_box[lang="ko"] {
+		line-height: 1.6;
+	}
 	.goog-flat-menu-button {
 		font-size: 12px;
 	}
@@ -46,11 +33,9 @@
 		overflow-x: hidden;
 	}
 }
-
-/* Render */
 @-moz-document domain("twitter.com") {
 	.ProfileCanopy.is-locked .ProfileCanopy-inner, .SearchNavigation {
-		position: absolute
+		position: absolute;
 	}
 }
 @-moz-document domain("userstyles.org") {
@@ -87,6 +72,28 @@
 	}
 	img {
 		image-rendering: auto !important;
+	}
+}
+@-moz-document domain("bilibili.com") {
+	.player-fullscreen-fix {
+		overflow: hidden;
+	}
+	.bilibili-player-video-inputbar {
+		margin-right: -1px;
+	}
+	.bilibili-player-video-danmaku {
+		will-change: contents;
+	}
+	.bilibili-player-video-sendbar .bilibili-player-video-inputbar .bilibili-player-video-danmaku-input {
+		font-size: 1.3em;
+	}
+	.bilibili-player-video-btn-send {
+		transform: scale(1.3);
+	}
+}
+@-moz-document domain("pan.baidu.com") {
+	#fileTreeDialog .file-tree-container {
+		height: 60vh;
 	}
 }
 
